@@ -1,5 +1,5 @@
 use enigo::{Enigo, MouseControllable};
-use rand::{distributions::Uniform, distributions::Distribution};
+use rand::{distributions::Distribution, distributions::Uniform};
 use std::{thread, time::Duration};
 
 fn main() {
