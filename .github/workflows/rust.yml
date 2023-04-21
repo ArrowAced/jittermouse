@@ -16,5 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Install libxdo-dev
+      run: sudo apt install libxdo-dev
     - name: Build
       run: cargo build --verbose
